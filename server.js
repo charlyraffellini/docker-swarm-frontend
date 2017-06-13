@@ -1,5 +1,4 @@
 const http = require('http');
-const sleep = require('sleep');
 const express = require('express');
 const rp = require("request-promise");
 const inspect = require("./inspect");
