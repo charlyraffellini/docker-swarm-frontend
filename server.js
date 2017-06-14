@@ -1,7 +1,6 @@
 const http = require('http');
 const express = require('express');
 const rp = require("request-promise");
-const inspect = require("./inspect");
 
 const LISTEN_HOSTNAME = process.env.MYWEB_LISTEN_HOSTNAME || '0.0.0.0';
 const LISTEN_PORT = process.env.MYWEB_LISTEN_PORT || '3000';
